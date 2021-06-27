@@ -24,6 +24,8 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="/assets/css/style.css?v=4684f39c81135de381a38799fdcc07b88125caf4">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+   
+   
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
   </head>
   <body>
@@ -128,6 +130,218 @@ Additional presentations will be added on a rolling basis depending on workshop 
   <li><strong>August 31</strong>: Workshop-specific submission deadline (accepted papers will be featured on the INLP&rsquo;21 website, but will not be published in the AGI-21 conference proceedings)</li>
   <li><strong>September 18</strong>: Workshop-specific acceptance notification</li>
 </ul>
+
+<h2 id="related-work" style="font-family: Noto Sans JP;">Related Work</h2>
+<h3 id="prior-publications" style="font-family: Noto Sans JP;">Publications</h3>
+
+<ul>
+  <li>Ramesh, V., Kolonin, A.: Natural Language Generation Using Link Grammar for General Conversational Intelligence. arXiv:2105.00830 [cs.CL] (2021).</li>
+<li>Ramesh, V., Kolonin, A.: Interpretable Natural Language Segmentation Based on Link Grammar. In: 2020 Science and Artificial Intelligence conference (S.A.I.ence), pp. 25–32. IEEE, Novosibirsk (2020).</li>
+  <li>Sleator, D., Temperley, D.: Parsing English with a Link Grammar. In: Proceedings of the Third International Workshop on Parsing Technologies, pp. 277–292. Association for Computational Linguistics, Netherlands (1993).</li>
+  <span id="dots"></span><span id="more">
+
+  <li>Lian, R., et al.: Syntax-Semantic Mapping for General Intelligence: Language Comprehension as Hypergraph Homomorphism, Language Generation as Constraint Satisfaction. In: Bach, J., Goertzel, B., Iklé, M. (eds.) ARTIFICIAL GENERAL INTELLIGENCE 2012, LNCS, vol 7716, pp. 158–167. Springer, Heidelberg (2012).</li>
+
+<li>Glushchenko, A., et al.: Unsupervised Language Learning in OpenCog. In: Iklé M., Franz, A., Rzepka, R., Goertzel, B. (eds.) ARTIFICIAL GENERAL INTELLIGENCE 2018, LNCS, vol 10999, pp. 109–118 Springer, Cham (2018).</li>
+<li>Glushchenko, A., Suarez, A., Kolonin, A., Goertzel, B., Baskov, O.: Programmatic Link Grammar Induction for Unsupervised Language Learning. In: Hammer, P., Agrawal, P., Goertzel, B., Iklé, M. (eds.) ARTIFICIAL GENERAL INTELLIGENCE 2019, LNCS, vol 11654, pp. 111-120. Springer, Cham (2019).</li>
+<li>Vepstas, L.: Sheaves: A Topological Approach to Big Data. arXiv:1901.01341 [cs.LG] (2019).</li>
+<li>Lian, R., Goertzel, B., Vepstas, L., Hanson, D., Zhou, C.: Symbol Grounding via Chaining of Morphisms. arXiv:1703.04368 [cs.AI] (2017).</li>
+<li>Vepstas, L., Goertzel, B.: Learning Language from a Large (Unannotated) Corpus. arXiv:1401.3372 [cs.CL] (2014).</li>
+<li>Goertzel, B., et al.: A General Intelligence Oriented Architecture for Embodied Natural Language Processing. In: Proceedings of the 3rd Conference on Artificial General Intelligence, pp. 68-73. Atlantis Press (2010).</li>
+<li>Goertzel, B., Suarez, A., Yu, G.: Guiding Symbolic Natural Language Grammar Induction via Transformer-Based Sequence Probabilities. arXiv:2005.12533 [cs.CL] (2020).</li>
+</span>
+</ul>
+<center><button style="background-color: #0395d5; color: white; border: 0px; border-radius: 10px; width: 100px; height: 35px" onclick="myFunction()" id="myBtn"><span style="font-family: Google Sans">See more</span></button></center>
+<style>
+  #more {
+    display: none
+  }
+</style>
+
+<script>
+  function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "See more"; 
+      btnText.style.fontFamily = "Google Sans"; 
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "See less"; 
+      btnText.style.fontFamily = "Google Sans"; 
+      moreText.style.display = "inline";
+    }
+  }
+  </script>
+
+
+<h3 id="prior-presentations" style="font-family: Noto Sans JP;">Presentations</h3>
+
+<style>
+  * {box-sizing: border-box}
+  body {font-family: Verdana, sans-serif; margin:0}
+  .mySlides {display: none}
+  img {vertical-align: middle;}
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+  </style>
+  </head>
+  <body>
+  
+  <div class="slideshow-container">
+  
+  <div class="mySlides fade">
+    <!-- <div class="numbertext">1 / 3</div> -->
+    <iframe width="850" height="478" src="https://www.youtube.com/embed/ABvopAfc3jY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    <!-- <div class="text">Caption Text</div> -->
+  </div>
+  
+  <div class="mySlides fade">
+    <!-- <div class="numbertext">2 / 3</div> -->
+    <iframe width="850" height="478" src="https://www.youtube.com/embed/cwgtcOfA3KI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    <!-- <div class="text">Caption Two</div> -->
+  </div>
+  
+  <div class="mySlides fade">
+    <!-- <div class="numbertext">3 / 3</div> -->
+    <iframe width="850" height="478" src="https://www.youtube.com/embed/FzKMtNILmDk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    <!-- <div class="text">Caption Three</div> -->
+  </div>
+  
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+  
+  <script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
+  
+
 
 
 <h2 id="contact" style="font-family: Noto Sans JP;">Contact</h2>
