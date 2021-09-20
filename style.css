@@ -811,6 +811,25 @@ a:hover {
   background-color: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.3);
 }
+
+.btn-2 {
+  display: inline-block;
+  margin-bottom: 0rem;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: #0395d5;
+  border-color: #000080;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.3rem;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+}
+.btn-2:hover {
+  color: black;
+  text-decoration: none;
+  background-color: rgba(52, 208, 247, 0.473);
+  border-color: #000080;
+}
+
 .btn + .btn {
   margin-left: 1rem;
 }
