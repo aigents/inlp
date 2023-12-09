@@ -1,11 +1,6 @@
 ## 19 июня 2023 - AGI-23 | Interpretable Natural Language Processing (INLP)
 [![Watch the video](https://img.youtube.com/vi/FB6g0cuZpFc/hqdefault.jpg)](https://youtu.be/FB6g0cuZpFc)
 
-
-
-
-
-
 S08 [00:04:45]  : Welcome to the final session of AGI 23. So we're day four, final workshop session. All things have consolidated to this moment right here, the only session running. So we'll have everybody together as we end on a high note. So this is the Interpretable Natural Language Processing, INLP, led by Anton Koloman. And we're going to start with the presentation by Patrick Hammer on NARS GPT with the demo. Welcome, Patrick. 
 
 S02 [00:05:24]  : Thank you. 
