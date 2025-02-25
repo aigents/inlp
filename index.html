@@ -51,14 +51,6 @@
   While general conversational intelligence (GCI) can be considered one of the core aspects of AGI, the fields of AGI and NLP currently have little overlap, with few existing AGI architectures capable of comprehending natural language and nearly all NLP systems founded upon specialized, hardcoded rules and language-specific frameworks. This initiative is centered around the idea of INLP, an extension of the interpretable AI (IAI) concept to NLP; INLP allows for acquisition of natural language, comprehension of textual communications, and production of textual messages in a reasonable and transparent way. The proposed projects regarding <a href="https://www.link.cs.cmu.edu/link/" target="_blank">Link Grammar (LG)</a>, unsupervised LG learning, interpretable NLG/NLS, and sentiment mining/topic matching cover various INLP methods that may bring a greater degree of GCI to proto-AGI pipelines.
 </p>
 
-<h2 id="projects" style="font-family: Noto Sans JP;">Projects</h2>
-<ul>
-  <li><a href="https://github.com/opencog/link-grammar" target="_blank">Link Grammar</a> (OpenCog - Linas Vepstas)</li>
-  <li><a href="https://github.com/singnet/language-learning" target="_blank">Language Learning</a> (SingularityNET - Ben Goertzel, Anton Kolonin)</li>
-  <li><a href="https://github.com/aigents" target="_blank">Interpretable NLS/NLG</a> (Aigents - Vignav Ramesh, Anton Kolonin)</li>
-  <li><a href="http://www.chaoticlanguage.com/" target="_blank">Vector Parser</a> (Chaotic Language - Rob Freeman)</li>
-</ul>
-
 <h2 id="workshops" style="font-family: Noto Sans JP;">Workshops</h2>
 <ul>
   <li><a href="https://t.me/internlp/862" target="_blank">AGI-25 INLP Workshop</a> (<b>August 10-13, 2025 - Open Call!</b>)</li>
@@ -67,61 +59,8 @@
   <li><a href="./2022/" target="_blank">AGI-22 INLP Workshop</a> (August 19-22, 2022)</li>
   <li><a href="./2021/" target="_blank">AGI-21 INLP Workshop</a> (October 15, 2021)</li>
 </ul>
-
-<h2 id="related-work" style="font-family: Noto Sans JP;">Related Work</h2>
-<h3 id="prior-publications" style="font-family: Noto Sans JP;">Publications</h3>
-
-<ul>
-  <li>Vepstas, L., Goertzel, B.: Learning Language from a Large (Unannotated) Corpus. arXiv:1401.3372 [cs.LG] (2014).</li>
-  <li>Vepstas, L.: Sheaves: A Topological Approach to Big Data. arXiv:1901.01341 [cs.LG] (2019).</li>
-  <li>Ramesh, V., Kolonin, A.: Natural Language Generation Using Link Grammar for General Conversational Intelligence. arXiv:2105.00830 [cs.CL] (2021).</li>
-  <span id="dots"></span><span id="more">
-  <li>Ramesh, V., Kolonin, A.: Interpretable Natural Language Segmentation Based on Link Grammar. In: 2020 Science and Artificial Intelligence conference (S.A.I.ence), pp. 25–32. IEEE, Novosibirsk (2020).</li>
-  <li>Sleator, D., Temperley, D.: Parsing English with a Link Grammar. In: Proceedings of the Third International Workshop on Parsing Technologies, pp. 277–292. Association for Computational Linguistics, Netherlands (1993).</li>
   
-
-  <li>Lian, R., et al.: Syntax-Semantic Mapping for General Intelligence: Language Comprehension as Hypergraph Homomorphism, Language Generation as Constraint Satisfaction. In: Bach, J., Goertzel, B., Iklé, M. (eds.) ARTIFICIAL GENERAL INTELLIGENCE 2012, LNCS, vol 7716, pp. 158–167. Springer, Heidelberg (2012).</li>
-
-<li>Glushchenko, A., et al.: Unsupervised Language Learning in OpenCog. In: Iklé M., Franz, A., Rzepka, R., Goertzel, B. (eds.) ARTIFICIAL GENERAL INTELLIGENCE 2018, LNCS, vol 10999, pp. 109–118 Springer, Cham (2018).</li>
-<li>Glushchenko, A., Suarez, A., Kolonin, A., Goertzel, B., Baskov, O.: Programmatic Link Grammar Induction for Unsupervised Language Learning. In: Hammer, P., Agrawal, P., Goertzel, B., Iklé, M. (eds.) ARTIFICIAL GENERAL INTELLIGENCE 2019, LNCS, vol 11654, pp. 111-120. Springer, Cham (2019).</li>
-<li>Vepstas, L.: Sheaves: A Topological Approach to Big Data. arXiv:1901.01341 [cs.LG] (2019).</li>
-<li>Lian, R., Goertzel, B., Vepstas, L., Hanson, D., Zhou, C.: Symbol Grounding via Chaining of Morphisms. arXiv:1703.04368 [cs.AI] (2017).</li>
-<li>Vepstas, L., Goertzel, B.: Learning Language from a Large (Unannotated) Corpus. arXiv:1401.3372 [cs.CL] (2014).</li>
-<li>Goertzel, B., et al.: A General Intelligence Oriented Architecture for Embodied Natural Language Processing. In: Proceedings of the 3rd Conference on Artificial General Intelligence, pp. 68-73. Atlantis Press (2010).</li>
-<li>Goertzel, B., Suarez, A., Yu, G.: Guiding Symbolic Natural Language Grammar Induction via Transformer-Based Sequence Probabilities. arXiv:2005.12533 [cs.CL] (2020).</li>
-<li>Freeman, R.: Parsing using a grammar of word association vectors. arXiv:1403.2152 [cs.CL] (2014).</li>
-</span>
-</ul>
-<center><button style="background-color: #0395d5; color: white; border: 0px; border-radius: 10px; width: 150px; height: 35px" onclick="myFunction()" id="myBtn"><span style="font-family: Google Sans">See more</span></button></center>
-<style>
-  #more {
-    display: none
-  }
-</style>
-
-<script>
-  function myFunction() {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("more");
-    var btnText = document.getElementById("myBtn");
-  
-    if (dots.style.display === "none") {
-      dots.style.display = "inline";
-      btnText.innerHTML = "See more"; 
-      btnText.style.fontFamily = "Google Sans"; 
-      moreText.style.display = "none";
-    } else {
-      dots.style.display = "none";
-      btnText.innerHTML = "See less"; 
-      btnText.style.fontFamily = "Google Sans"; 
-      moreText.style.display = "inline";
-    }
-  }
-  </script>
-
-
-<h3 id="prior-presentations" style="font-family: Noto Sans JP;">Presentations</h3>
-
+<h2 id="prior-presentations" style="font-family: Noto Sans JP;">Workshop Videos</h2>
 <style>
   * {box-sizing: border-box}
   body {font-family: Verdana, sans-serif; margin:0}
@@ -222,6 +161,8 @@
   }
   </style>
   </head>
+
+      
   <body>
   
   <div class="slideshow-container">
@@ -291,7 +232,64 @@
   </script>
   
 
+<h2 id="projects" style="font-family: Noto Sans JP;">Projects</h2>
+<ul>
+  <li><a href="https://github.com/opencog/link-grammar" target="_blank">Link Grammar</a> (OpenCog - Linas Vepstas)</li>
+  <li><a href="https://github.com/singnet/language-learning" target="_blank">Language Learning</a> (SingularityNET - Ben Goertzel, Anton Kolonin)</li>
+  <li><a href="https://github.com/aigents" target="_blank">Interpretable NLS/NLG</a> (Aigents - Vignav Ramesh, Anton Kolonin)</li>
+  <li><a href="http://www.chaoticlanguage.com/" target="_blank">Vector Parser</a> (Chaotic Language - Rob Freeman)</li>
+</ul>
 
+<h2 id="related-work" style="font-family: Noto Sans JP;">Related Work</h2>
+<h3 id="prior-publications" style="font-family: Noto Sans JP;">Publications</h3>
+
+<ul>
+  <li>Vepstas, L., Goertzel, B.: Learning Language from a Large (Unannotated) Corpus. arXiv:1401.3372 [cs.LG] (2014).</li>
+  <li>Vepstas, L.: Sheaves: A Topological Approach to Big Data. arXiv:1901.01341 [cs.LG] (2019).</li>
+  <li>Ramesh, V., Kolonin, A.: Natural Language Generation Using Link Grammar for General Conversational Intelligence. arXiv:2105.00830 [cs.CL] (2021).</li>
+  <span id="dots"></span><span id="more">
+  <li>Ramesh, V., Kolonin, A.: Interpretable Natural Language Segmentation Based on Link Grammar. In: 2020 Science and Artificial Intelligence conference (S.A.I.ence), pp. 25–32. IEEE, Novosibirsk (2020).</li>
+  <li>Sleator, D., Temperley, D.: Parsing English with a Link Grammar. In: Proceedings of the Third International Workshop on Parsing Technologies, pp. 277–292. Association for Computational Linguistics, Netherlands (1993).</li>
+  
+
+  <li>Lian, R., et al.: Syntax-Semantic Mapping for General Intelligence: Language Comprehension as Hypergraph Homomorphism, Language Generation as Constraint Satisfaction. In: Bach, J., Goertzel, B., Iklé, M. (eds.) ARTIFICIAL GENERAL INTELLIGENCE 2012, LNCS, vol 7716, pp. 158–167. Springer, Heidelberg (2012).</li>
+
+<li>Glushchenko, A., et al.: Unsupervised Language Learning in OpenCog. In: Iklé M., Franz, A., Rzepka, R., Goertzel, B. (eds.) ARTIFICIAL GENERAL INTELLIGENCE 2018, LNCS, vol 10999, pp. 109–118 Springer, Cham (2018).</li>
+<li>Glushchenko, A., Suarez, A., Kolonin, A., Goertzel, B., Baskov, O.: Programmatic Link Grammar Induction for Unsupervised Language Learning. In: Hammer, P., Agrawal, P., Goertzel, B., Iklé, M. (eds.) ARTIFICIAL GENERAL INTELLIGENCE 2019, LNCS, vol 11654, pp. 111-120. Springer, Cham (2019).</li>
+<li>Vepstas, L.: Sheaves: A Topological Approach to Big Data. arXiv:1901.01341 [cs.LG] (2019).</li>
+<li>Lian, R., Goertzel, B., Vepstas, L., Hanson, D., Zhou, C.: Symbol Grounding via Chaining of Morphisms. arXiv:1703.04368 [cs.AI] (2017).</li>
+<li>Vepstas, L., Goertzel, B.: Learning Language from a Large (Unannotated) Corpus. arXiv:1401.3372 [cs.CL] (2014).</li>
+<li>Goertzel, B., et al.: A General Intelligence Oriented Architecture for Embodied Natural Language Processing. In: Proceedings of the 3rd Conference on Artificial General Intelligence, pp. 68-73. Atlantis Press (2010).</li>
+<li>Goertzel, B., Suarez, A., Yu, G.: Guiding Symbolic Natural Language Grammar Induction via Transformer-Based Sequence Probabilities. arXiv:2005.12533 [cs.CL] (2020).</li>
+<li>Freeman, R.: Parsing using a grammar of word association vectors. arXiv:1403.2152 [cs.CL] (2014).</li>
+</span>
+</ul>
+<center><button style="background-color: #0395d5; color: white; border: 0px; border-radius: 10px; width: 150px; height: 35px" onclick="myFunction()" id="myBtn"><span style="font-family: Google Sans">See more</span></button></center>
+<style>
+  #more {
+    display: none
+  }
+</style>
+
+<script>
+  function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "See more"; 
+      btnText.style.fontFamily = "Google Sans"; 
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "See less"; 
+      btnText.style.fontFamily = "Google Sans"; 
+      moreText.style.display = "inline";
+    }
+  }
+  </script>
 
 <h2 id="contact" style="font-family: Noto Sans JP;">Contact</h2>
 
